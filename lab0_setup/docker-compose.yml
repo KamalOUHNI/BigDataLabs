@@ -1,0 +1,66 @@
+services:
+  hadoop-master:
+    image: yassern1/hadoop-spark-jupyter:1.0.3  
+    container_name: hadoop-master
+    hostname: hadoop-master
+    ports:
+      - "9870:9870"   # Hadoop NameNode UI
+      - "8088:8088"   # Hadoop ResourceManager UI
+      - "7077:7077"   # Spark Master Port
+      - "19888:19888" # MapReduce History Server
+      - "8080:8080"   # Spark Master UI
+      - "9000:9000"   # Hadoop NameNode IPC
+    volumes:
+      - "C:/Users/mouad/OneDrive - um5.ac.ma/Documents/hadoop_project:/shared_volume"
+    stdin_open: true
+    tty: true  
+    networks:
+      - hadoop-net  
+  hadoop-slave1:
+    image: yassern1/hadoop-spark-jupyter:1.0.3
+    container_name: hadoop-slave1
+    hostname: hadoop-slave1
+    ports:
+      - "8040:8042"
+      
+    networks:
+      - hadoop-net
+    depends_on:
+      - hadoop-master
+    stdin_open: true
+    tty: true  
+  hadoop-slave2:
+    image: yassern1/hadoop-spark-jupyter:1.0.3
+    container_name: hadoop-slave2
+    hostname: hadoop-slave2
+    ports:
+    - "8041:8042"
+    networks:
+      - hadoop-net
+    depends_on:
+      - hadoop-master
+    stdin_open: true
+    tty: true  
+  
+  hiveserver2:
+    image: apache/hive:4.0.0-alpha-2
+    container_name: hiveserver2-standalone
+    hostname: hiveserver2
+    ports:
+      - "10000:10000"  # HiveServer2 JDBC
+      - "10002:10002"  # HiveServer2 Web UI
+      - "9083:9083"    # Metastore
+    environment:
+      - SERVICE_NAME=hiveserver2
+    volumes:
+      - "C:/Users/mouad/OneDrive - um5.ac.ma/Documents/hadoop_project:/shared_volume"
+    networks:
+      - hadoop-net
+    stdin_open: true
+    tty: true
+    
+networks:
+    hadoop-net:
+      driver: bridge
+
+

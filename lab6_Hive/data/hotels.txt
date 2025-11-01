@@ -1,0 +1,10 @@
+1,Hotel Luxe Paris,5,Paris
+2,Hotel Budget Lyon,3,Lyon
+3,Hotel Moderne Marseille,4,Marseille
+4,Hotel Confort Paris,3,Paris
+5,Hotel Premium Lyon,5,Lyon
+6,Hotel Standard Marseille,3,Marseille
+7,Hotel Elegance Paris,4,Paris
+8,Hotel Economique Lyon,2,Lyon
+9,Hotel Royal Marseille,5,Marseille
+10,Hotel Simple Paris,2,Paris
