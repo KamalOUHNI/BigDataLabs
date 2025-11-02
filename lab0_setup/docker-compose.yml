@@ -11,7 +11,7 @@ services:
       - "8080:8080"   # Spark Master UI
       - "9000:9000"   # Hadoop NameNode IPC
     volumes:
-      - "C:/Users/mouad/OneDrive - um5.ac.ma/Documents/hadoop_project:/shared_volume"
+      - "C:/Users/kamal/OneDrive/Documents/hadoop_project:/shared_volume"
     stdin_open: true
     tty: true  
     networks:
@@ -53,7 +53,7 @@ services:
     environment:
       - SERVICE_NAME=hiveserver2
     volumes:
-      - "C:/Users/mouad/OneDrive - um5.ac.ma/Documents/hadoop_project:/shared_volume"
+      - "C:/Users/kamal/OneDrive/Documents/hadoop_project:/shared_volume"
     networks:
       - hadoop-net
     stdin_open: true
