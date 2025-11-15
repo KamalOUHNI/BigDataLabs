@@ -1,0 +1,428 @@
+{
+    "_id": "movie:1",
+    "title": "Vertigo",
+    "year": 1958,
+    "genre": "drama",
+    "summary": "A retired detective suffering from acrophobia investigates the strange activities of an old friend's wife",
+    "country": "US",
+    "director": {
+        "_id": "artist:1"
+    },
+    "actors": [
+        {
+            "_id": "artist:2",
+            "role": "John Ferguson"
+        },
+        {
+            "_id": "artist:3",
+            "role": "Madeleine Elster"
+        }
+    ]
+}
+{
+    "_id": "movie:2",
+    "title": "Psycho",
+    "year": 1960,
+    "genre": "thriller",
+    "summary": "A Phoenix secretary embezzles money and runs into a young motel proprietor",
+    "country": "US",
+    "director": {
+        "_id": "artist:1"
+    },
+    "actors": [
+        {
+            "_id": "artist:4",
+            "role": "Norman Bates"
+        },
+        {
+            "_id": "artist:5",
+            "role": "Marion Crane"
+        }
+    ]
+}
+{
+    "_id": "movie:3",
+    "title": "North by Northwest",
+    "year": 1959,
+    "genre": "thriller",
+    "summary": "A New York City advertising executive goes on the run after being mistaken for a government agent",
+    "country": "US",
+    "director": {
+        "_id": "artist:1"
+    },
+    "actors": [
+        {
+            "_id": "artist:6",
+            "role": "Roger Thornhill"
+        },
+        {
+            "_id": "artist:7",
+            "role": "Eve Kendall"
+        }
+    ]
+}
+{
+    "_id": "movie:4",
+    "title": "Rear Window",
+    "year": 1954,
+    "genre": "thriller",
+    "summary": "A photographer confined to a wheelchair watches his neighbors through his window",
+    "country": "US",
+    "director": {
+        "_id": "artist:1"
+    },
+    "actors": [
+        {
+            "_id": "artist:2",
+            "role": "L.B. Jefferies"
+        },
+        {
+            "_id": "artist:8",
+            "role": "Lisa Fremont"
+        }
+    ]
+}
+{
+    "_id": "movie:5",
+    "title": "The Godfather",
+    "year": 1972,
+    "genre": "crime",
+    "summary": "The aging patriarch of an organized crime dynasty transfers control to his reluctant son",
+    "country": "US",
+    "director": {
+        "_id": "artist:9"
+    },
+    "actors": [
+        {
+            "_id": "artist:10",
+            "role": "Don Vito Corleone"
+        },
+        {
+            "_id": "artist:11",
+            "role": "Michael Corleone"
+        }
+    ]
+}
+{
+    "_id": "movie:6",
+    "title": "The Godfather Part II",
+    "year": 1974,
+    "genre": "crime",
+    "summary": "The early life and career of Vito Corleone in 1920s New York is portrayed while his son Michael expands the family crime syndicate",
+    "country": "US",
+    "director": {
+        "_id": "artist:9"
+    },
+    "actors": [
+        {
+            "_id": "artist:10",
+            "role": "Vito Corleone"
+        },
+        {
+            "_id": "artist:11",
+            "role": "Michael Corleone"
+        }
+    ]
+}
+{
+    "_id": "movie:7",
+    "title": "Apocalypse Now",
+    "year": 1979,
+    "genre": "war",
+    "summary": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel",
+    "country": "US",
+    "director": {
+        "_id": "artist:9"
+    },
+    "actors": [
+        {
+            "_id": "artist:10",
+            "role": "Colonel Kurtz"
+        },
+        {
+            "_id": "artist:12",
+            "role": "Captain Willard"
+        }
+    ]
+}
+{
+    "_id": "movie:8",
+    "title": "Star Wars",
+    "year": 1977,
+    "genre": "sci-fi",
+    "summary": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, and two droids to save the galaxy",
+    "country": "US",
+    "director": {
+        "_id": "artist:13"
+    },
+    "actors": [
+        {
+            "_id": "artist:14",
+            "role": "Luke Skywalker"
+        },
+        {
+            "_id": "artist:15",
+            "role": "Han Solo"
+        },
+        {
+            "_id": "artist:16",
+            "role": "Princess Leia"
+        }
+    ]
+}
+{
+    "_id": "movie:9",
+    "title": "The Empire Strikes Back",
+    "year": 1980,
+    "genre": "sci-fi",
+    "summary": "After the Rebels are brutally overpowered by the Empire, Luke Skywalker begins Jedi training with Yoda",
+    "country": "US",
+    "director": {
+        "_id": "artist:17"
+    },
+    "actors": [
+        {
+            "_id": "artist:14",
+            "role": "Luke Skywalker"
+        },
+        {
+            "_id": "artist:15",
+            "role": "Han Solo"
+        },
+        {
+            "_id": "artist:16",
+            "role": "Princess Leia"
+        }
+    ]
+}
+{
+    "_id": "movie:10",
+    "title": "Blade Runner",
+    "year": 1982,
+    "genre": "sci-fi",
+    "summary": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth",
+    "country": "US",
+    "director": {
+        "_id": "artist:18"
+    },
+    "actors": [
+        {
+            "_id": "artist:15",
+            "role": "Deckard"
+        },
+        {
+            "_id": "artist:19",
+            "role": "Rachael"
+        }
+    ]
+}
+{
+    "_id": "movie:11",
+    "title": "Casablanca",
+    "year": 1942,
+    "genre": "drama",
+    "summary": "A cynical American expatriate struggles to decide whether or not to help his former lover escape from Casablanca",
+    "country": "US",
+    "director": {
+        "_id": "artist:20"
+    },
+    "actors": [
+        {
+            "_id": "artist:21",
+            "role": "Rick Blaine"
+        },
+        {
+            "_id": "artist:22",
+            "role": "Ilsa Lund"
+        }
+    ]
+}
+{
+    "_id": "movie:12",
+    "title": "Citizen Kane",
+    "year": 1941,
+    "genre": "drama",
+    "summary": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance",
+    "country": "US",
+    "director": {
+        "_id": "artist:23"
+    },
+    "actors": [
+        {
+            "_id": "artist:23",
+            "role": "Charles Foster Kane"
+        },
+        {
+            "_id": "artist:24",
+            "role": "Jedediah Leland"
+        }
+    ]
+}
+{
+    "_id": "movie:13",
+    "title": "2001: A Space Odyssey",
+    "year": 1968,
+    "genre": "sci-fi",
+    "summary": "After discovering a mysterious artifact buried beneath the Lunar surface, mankind sets off on a quest to find its origins",
+    "country": "US",
+    "director": {
+        "_id": "artist:25"
+    },
+    "actors": [
+        {
+            "_id": "artist:26",
+            "role": "Dr. Dave Bowman"
+        },
+        {
+            "_id": "artist:27",
+            "role": "Dr. Frank Poole"
+        }
+    ]
+}
+{
+    "_id": "movie:14",
+    "title": "The Shining",
+    "year": 1980,
+    "genre": "horror",
+    "summary": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence",
+    "country": "US",
+    "director": {
+        "_id": "artist:25"
+    },
+    "actors": [
+        {
+            "_id": "artist:28",
+            "role": "Jack Torrance"
+        },
+        {
+            "_id": "artist:29",
+            "role": "Wendy Torrance"
+        }
+    ]
+}
+{
+    "_id": "movie:15",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genre": "crime",
+    "summary": "The lives of two mob hitmen, a boxer, and a pair of diner bandits intertwine in four tales of violence and redemption",
+    "country": "US",
+    "director": {
+        "_id": "artist:30"
+    },
+    "actors": [
+        {
+            "_id": "artist:31",
+            "role": "Vincent Vega"
+        },
+        {
+            "_id": "artist:32",
+            "role": "Jules Winnfield"
+        }
+    ]
+}
+{
+    "_id": "movie:16",
+    "title": "La Haine",
+    "year": 1995,
+    "genre": "drama",
+    "summary": "24 hours in the lives of three young men in the French suburbs",
+    "country": "FR",
+    "director": {
+        "_id": "artist:33"
+    },
+    "actors": [
+        {
+            "_id": "artist:34",
+            "role": "Vinz"
+        },
+        {
+            "_id": "artist:35",
+            "role": "Hubert"
+        }
+    ]
+}
+{
+    "_id": "movie:17",
+    "title": "Amélie",
+    "year": 2001,
+    "genre": "romance",
+    "summary": "Amélie is an innocent and naive girl in Paris with her own sense of justice",
+    "country": "FR",
+    "director": {
+        "_id": "artist:36"
+    },
+    "actors": [
+        {
+            "_id": "artist:37",
+            "role": "Amélie Poulain"
+        },
+        {
+            "_id": "artist:38",
+            "role": "Nino Quincampoix"
+        }
+    ]
+}
+{
+    "_id": "movie:18",
+    "title": "Le Fabuleux Destin d'Amélie Poulain",
+    "year": 2001,
+    "genre": "romance",
+    "summary": "Despite being caught in her imaginative world, young waitress Amélie decides to help people find happiness",
+    "country": "FR",
+    "director": {
+        "_id": "artist:36"
+    },
+    "actors": [
+        {
+            "_id": "artist:37",
+            "role": "Amélie"
+        },
+        {
+            "_id": "artist:38",
+            "role": "Nino"
+        }
+    ]
+}
+{
+    "_id": "movie:19",
+    "title": "Inception",
+    "year": 2010,
+    "genre": "sci-fi",
+    "summary": "A thief who steals corporate secrets through the use of dream-sharing technology",
+    "country": "US",
+    "director": {
+        "_id": "artist:39"
+    },
+    "actors": [
+        {
+            "_id": "artist:40",
+            "role": "Dom Cobb"
+        },
+        {
+            "_id": "artist:41",
+            "role": "Arthur"
+        }
+    ]
+}
+{
+    "_id": "movie:20",
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": "action",
+    "summary": "When the menace known as the Joker wreaks havoc on Gotham, Batman must accept one of the greatest tests",
+    "country": "US",
+    "director": {
+        "_id": "artist:39"
+    },
+    "actors": [
+        {
+            "_id": "artist:42",
+            "role": "Batman"
+        },
+        {
+            "_id": "artist:43",
+            "role": "Joker"
+        }
+    ]
+}

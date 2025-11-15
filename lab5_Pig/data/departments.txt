@@ -1,0 +1,6 @@
+10,Informatique
+20,Marketing
+30,Ventes
+40,Ressources Humaines
+50,Finance
+60,Logistique
